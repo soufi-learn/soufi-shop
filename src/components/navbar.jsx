@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className='main-nav'>
                 <ul className='flex gap-3 md:gap-5 lg:gap-8'>
                     <li>
-                        <NavLink to="shop" className='block p-2 text-white transition-all nav-link hover:scale-110'>Shop</NavLink>
+                        <NavLink to="/" className='block p-2 text-white transition-all nav-link hover:scale-110'>Shop</NavLink>
                     </li>
 
                     <li>

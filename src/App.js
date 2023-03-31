@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 // COMPONENTS
 import Shop from "./pages/shop";
@@ -17,8 +17,7 @@ const App = () => {
       <ShopContextProvider>
         <Navbar />
         <Routes>
-          <Route path="/soufi-shop" element={<Navigate to="shop" />} />
-          <Route path="shop" element={<Shop />} />
+          <Route path="/" element={<Shop />} />
           <Route path="cart" element={<Cart />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
