@@ -17,12 +17,13 @@ const App = () => {
       <ShopContextProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="shop" />} />
-          <Route path="shop" element={<Shop />} />
-          <Route path="cart" element={<Cart />} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
-          <Route path="about" element={<About />} />
+          <Route path="/" element={<Navigate to="/shop" />} />
+          <Route path="/soufi-shop" element={<Navigate to="/shop" />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </ShopContextProvider>
