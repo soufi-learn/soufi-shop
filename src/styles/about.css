@@ -1,0 +1,16 @@
+.about-container {
+    height: 87vh;
+    overflow: hidden;
+}
+
+.about-container .about-section {}
+
+.about-container .about-section-img {
+    direction: rtl;
+    margin-top: -5rem;
+}
+
+.about-container .about-section-img img {
+    width: 80%;
+
+}

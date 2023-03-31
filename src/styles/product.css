@@ -1,0 +1,51 @@
+.products-container .product-box {
+    border-radius: 5px 5px 3px 3px;
+    padding: 1rem;
+    background: #fff;
+    position: relative;
+}
+
+.products-container .product-box .product-box-img {
+    width: 85%;
+    margin: 0 auto;
+    height: 340px;
+    object-fit: contain;
+}
+
+/* INFO */
+.products-container .product-box .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.products-container .product-box .product-name {
+    word-break: break-all;
+}
+
+.products-container .product-box .product-add-btn {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    color: #fff
+}
+
+
+/* RATE */
+.products-container .product-box .rating-box {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    padding: .2rem .5rem;
+    border-radius: 50px;
+    /* font-size: .9rem; */
+}
+
+.products-container .product-box .rating-box .rate-text {
+    margin-left: .5rem;
+}
