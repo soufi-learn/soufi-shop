@@ -3,7 +3,13 @@
     overflow: hidden;
 }
 
-.about-container .about-section {}
+@media screen and (max-width: 1023px) {
+    .about-container {
+        height: auto;
+        overflow: auto;
+    }
+}
+
 
 .about-container .about-section-img {
     direction: rtl;

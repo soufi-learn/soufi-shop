@@ -1,6 +1,6 @@
 {
   "name": "new-project",
-  "homepage": "https://soufi-learn.github.io/soufi-shop",
+  "homepage": "https://soufi-learn.github.io/shop",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
