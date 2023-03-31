@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c180e97.css",
-    "main.js": "/static/js/main.edfce4e0.js",
-    "static/media/shopping-women.png": "/static/media/shopping-women.4a11c1eded15d6513ab4.png",
-    "static/media/Vazir.ttf": "/static/media/Vazir.6f433e36522181de5c61.ttf",
-    "static/media/loading.gif": "/static/media/loading.803f24369a085e35482e.gif",
-    "index.html": "/index.html",
-    "main.2c180e97.css.map": "/static/css/main.2c180e97.css.map",
-    "main.edfce4e0.js.map": "/static/js/main.edfce4e0.js.map"
+    "main.css": "/soufi-shop/static/css/main.3f93c749.css",
+    "main.js": "/soufi-shop/static/js/main.105ce669.js",
+    "static/media/shopping-women.png": "/soufi-shop/static/media/shopping-women.4a11c1eded15d6513ab4.png",
+    "static/media/Vazir.ttf": "/soufi-shop/static/media/Vazir.6f433e36522181de5c61.ttf",
+    "static/media/loading.gif": "/soufi-shop/static/media/loading.803f24369a085e35482e.gif",
+    "index.html": "/soufi-shop/index.html",
+    "main.3f93c749.css.map": "/soufi-shop/static/css/main.3f93c749.css.map",
+    "main.105ce669.js.map": "/soufi-shop/static/js/main.105ce669.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c180e97.css",
-    "static/js/main.edfce4e0.js"
+    "static/css/main.3f93c749.css",
+    "static/js/main.105ce669.js"
   ]
 }
